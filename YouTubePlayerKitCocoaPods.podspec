@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/daneegar/YouTubePlayerKitCocoaPods.git',
     :tag => '1.5.2'
 }
-  s.swift_version = '5.0'
+  s.swift_version = '5.1'
   s.platform     = :ios, '12.0'
   s.source_files = 'Sources/**/*'
 end
