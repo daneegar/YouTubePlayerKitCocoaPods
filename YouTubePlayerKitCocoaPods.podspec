@@ -7,9 +7,10 @@ Pod::Spec.new do |s|
   s.author           = { 'SvenTiigi' => 'https://github.com/SvenTiigi' }
   s.source           = {
     :git => 'https://github.com/daneegar/YouTubePlayerKitCocoaPods.git',
-    :tag => '1.5.2'
+    :tag => s.version.to_s
 }
-  s.swift_version = '5.1'
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0', '5.1'
   s.platform     = :ios, '12.0'
-  s.source_files = 'Sources/**/*'
+  s.source_files = 'Source/**/*'
 end
