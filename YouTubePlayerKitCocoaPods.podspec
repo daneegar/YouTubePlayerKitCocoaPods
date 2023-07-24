@@ -5,7 +5,10 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/SvenTiigi/YouTubePlayerKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author           = { 'SvenTiigi' => 'https://github.com/SvenTiigi' }
-  s.source           = { :git => 'https://github.com/SvenTiigi/YouTubePlayerKit.git', :branch => "main" }
+  s.source           = {
+    :git => 'https://github.com/SvenTiigi/YouTubePlayerKit.git',
+    :tag => '1.5.2'
+}
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
   s.source_files = 'Sources/**/*'
